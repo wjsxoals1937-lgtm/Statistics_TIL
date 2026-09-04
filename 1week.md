@@ -59,7 +59,7 @@ https://www.youtube.com/watch?v=D46j-e_IHlI&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 
 # 2️⃣ 수행 인증
-
+"혼자 공부하는 데이터 분석 with 파이썬" 교재의 코드를 실행함.
 <img width="700" height="276" alt="스크린샷 2026-09-04 210811" src="https://github.com/user-attachments/assets/6aeeec4a-7c82-4640-a5b6-5956360e47e5" />
 <img width="901" height="342" alt="스크린샷 2026-09-04 210843" src="https://github.com/user-attachments/assets/19998bb9-ef56-4e0d-8b5e-0a1936fcd327" />
 <img width="1541" height="500" alt="스크린샷 2026-09-04 210940" src="https://github.com/user-attachments/assets/3cb3ac9d-2954-4567-bdee-8a69a2f4ea28" />
