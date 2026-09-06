@@ -60,10 +60,13 @@ https://www.youtube.com/watch?v=D46j-e_IHlI&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 # 2️⃣ 수행 인증
 "혼자 공부하는 데이터 분석 with 파이썬" 교재의 코드를 실행함.
-<img width="700" height="276" alt="스크린샷 2026-09-04 210811" src="https://github.com/user-attachments/assets/6aeeec4a-7c82-4640-a5b6-5956360e47e5" />
-<img width="901" height="342" alt="스크린샷 2026-09-04 210843" src="https://github.com/user-attachments/assets/19998bb9-ef56-4e0d-8b5e-0a1936fcd327" />
-<img width="1541" height="500" alt="스크린샷 2026-09-04 210940" src="https://github.com/user-attachments/assets/3cb3ac9d-2954-4567-bdee-8a69a2f4ea28" />
-<img width="1352" height="645" alt="스크린샷 2026-09-04 211004" src="https://github.com/user-attachments/assets/7dea216c-b272-4e61-8d14-9aa49613842c" />
+
+
+<img width="377" height="252" alt="스크린샷 2026-09-07 005355" src="https://github.com/user-attachments/assets/82c017f2-ca43-4f41-80c4-641a2e587d31" />
+<img width="802" height="302" alt="스크린샷 2026-09-07 005420" src="https://github.com/user-attachments/assets/d4c32df4-2bf9-41d3-ad92-8391d1316277" />
+<img width="1377" height="397" alt="스크린샷 2026-09-07 005451" src="https://github.com/user-attachments/assets/8b844e4e-0441-47b5-b517-7703a71a557e" />
+<img width="1555" height="572" alt="스크린샷 2026-09-07 0" src="https://github.com/user-attachments/assets/3abe1f43-4ad2-4472-93a1-c9cfe3f9232d" />
+
 
 
 
