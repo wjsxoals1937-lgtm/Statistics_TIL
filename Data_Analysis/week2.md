@@ -1,3 +1,4 @@
+<img width="1057" height="802" alt="1" src="https://github.com/user-attachments/assets/d214a9f0-d51b-4a39-95f9-19537ab461c5" />
 # 데이터분석 2주차 정규과제
 
 📌데이터분석 정규과제는 매주 정해진 분량의 『*혼자 공부하는 데이터 분석 with 파이썬*』 을 읽고 학습하는 것입니다. 이번 주는 아래의 **DataAnalysis_2nd_TIL**에 나열된 분량을 읽고 공부하시면 됩니다.
@@ -48,6 +49,12 @@ https://www.youtube.com/watch?v=Il6L8OtNFpc&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 # 2️⃣ 수행 인증
 
 <!-- 교재에서 안내된 과정을 직접 실행해본 뒤, 진행 결과가 보이도록 4~6장의 스크린샷을 캡처하여 아래에 첨부해주세요.-->
+<img width="1057" height="802" alt="1" src="https://github.com/user-attachments/assets/314b7e1e-fb31-4fe6-9b7a-46475ff546f0" />
+<img width="755" height="702" alt="2" src="https://github.com/user-attachments/assets/f3f83f49-a5ef-479f-bf64-916c75e09d8c" />
+<img width="1657" height="805" alt="3" src="https://github.com/user-attachments/assets/97135033-97c5-405b-b8ac-b772bc855834" />
+<img width="746" height="765" alt="4" src="https://github.com/user-attachments/assets/9f0b7f6e-b7a2-4e94-8c82-053f967d8576" />
+<img width="1017" height="735" alt="5" src="https://github.com/user-attachments/assets/58c9acf2-f48d-4534-a2ad-0c3a5309007c" />
+<img width="512" height="212" alt="6" src="https://github.com/user-attachments/assets/8ff21ae3-0d42-48a5-bdef-d82ff0dda62e" />
 
 
 
