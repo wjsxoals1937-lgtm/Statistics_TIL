@@ -74,7 +74,7 @@ https://www.youtube.com/watch?v=Il6L8OtNFpc&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 ```
 
 ```
-여기에 선택한 답과 그 이유를 간단히 서술해주세요! Scrapy는 웹 스크래핑을 위한 파이썬 패키지로, requests와 BeautifulSoup의 기능을 함께 사용하는 것과 비슷하게 웹페이지를 가져오고 필요한 데이터를 추출할 수 있다.
+ Scrapy는 웹 스크래핑을 위한 파이썬 패키지로, requests와 BeautifulSoup의 기능을 함께 사용하는 것과 비슷하게 웹페이지를 가져오고 필요한 데이터를 추출할 수 있다.
 ```
 
 
