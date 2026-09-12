@@ -1,4 +1,3 @@
-<img width="1057" height="802" alt="1" src="https://github.com/user-attachments/assets/d214a9f0-d51b-4a39-95f9-19537ab461c5" />
 # 데이터분석 2주차 정규과제
 
 📌데이터분석 정규과제는 매주 정해진 분량의 『*혼자 공부하는 데이터 분석 with 파이썬*』 을 읽고 학습하는 것입니다. 이번 주는 아래의 **DataAnalysis_2nd_TIL**에 나열된 분량을 읽고 공부하시면 됩니다.
