@@ -79,15 +79,7 @@ https://www.youtube.com/watch?v=hhbzUEQWdTg&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 > **🧚Q. 다음 두 데이터프레임 df1, df2를 합쳐서 데이터프레임 df3를 만들려고 합니다.**  
 > 적절한 판다스 명령을 선택해주세요.
-> 3️⃣
-
-df1의 `col1`과 df2의 `col3`을 기준으로 합쳐야 합니다.
-
-그리고 결과를 보면 `z`와 `w`처럼 한쪽에만 있는 데이터도 모두 들어가 있습니다.
-
-따라서 두 데이터프레임의 데이터를 모두 가져오는 `outer`를 사용해야 합니다.
-
-그래서 정답은 **3번**입니다.
+> 
 
 <table>
 <tr>
