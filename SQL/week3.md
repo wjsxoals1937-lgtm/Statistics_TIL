@@ -95,7 +95,8 @@ SQL_BASIC 정규 과제는 매주 정해진 분량의 `초보자를 위한 BigQu
 - 강의 수강 화면 캡처
 - 문제 풀이 정답 화면 캡처
 - SQL 실행 결과 화면 캡처
-<img width="887" height="677" alt="스크린샷 2026-09-20 141112" src="https://github.com/user-attachments/assets/7efcd3cf-e4a2-400c-b7bd-34cf95a1057c" />
+<img width="1843" height="886" alt="image" src="https://github.com/user-attachments/assets/01b54156-a5db-4c9f-a75e-6d693a846b9c" />
+
 
 ---
 
