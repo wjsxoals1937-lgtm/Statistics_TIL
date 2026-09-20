@@ -1,5 +1,4 @@
 
-
 # 데이터분석 3주차 정규과제
 
 📌데이터분석 정규과제는 매주 정해진 분량의 『*혼자 공부하는 데이터 분석 with 파이썬*』 을 읽고 학습하는 것입니다. 이번 주는 아래의 **DataAnalysis_3rd_TIL**에 나열된 분량을 읽고 공부하시면 됩니다.
@@ -55,6 +54,22 @@ https://www.youtube.com/watch?v=hhbzUEQWdTg&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 <!-- 이번 주차에는 API를 발급받는 과정도 포함하여 첨부해주세요.-->
 <br>
 <br>
+<img width="887" height="677" alt="스크린샷 2026-09-20 141112" src="https://github.com/user-attachments/assets/d5a90053-222c-4361-8018-0748072bb05a" />
+<img width="720" height="717" alt="1" src="https://github.com/user-attachments/assets/02cce965-df31-4717-9889-0cf1bb262477" />
+<img width="535" height="806" alt="2" src="https://github.com/user-attachments/assets/cfa88c08-28be-4400-bd74-16c5f1fb3e32" />
+<img width="590" height="712" alt="3" src="https://github.com/user-attachments/assets/18c8ffb4-fbab-4e5f-b031-33b3073cc025" />
+<img width="675" height="782" alt="4" src="https://github.com/user-attachments/assets/09168a1a-9cd2-4b97-b858-f76c71ab5c92" />
+<img width="632" height="725" alt="5" src="https://github.com/user-attachments/assets/8572a790-11ea-4634-a0d3-a39ecdbd95ff" />
+<img width="611" height="781" alt="6" src="https://github.com/user-attachments/assets/d482c6fd-5821-44de-ba8c-63457c710653" />
+<img width="586" height="760" alt="7" src="https://github.com/user-attachments/assets/2c6b423e-1ff3-48a1-b2f3-647fb1ba7f0a" />
+<img width="677" height="772" alt="8" src="https://github.com/user-attachments/assets/94333b64-faa3-40ab-8ee3-ff5cab85bc85" />
+<img width="475" height="752" alt="9" src="https://github.com/user-attachments/assets/1e133c1a-419c-4669-9be9-853131b8fa52" />
+<img width="532" height="722" alt="10" src="https://github.com/user-attachments/assets/ba245ec0-168c-4c0c-8578-90591b57d4f2" />
+<img width="322" height="780" alt="11" src="https://github.com/user-attachments/assets/b90108b7-94d6-44ae-8e88-2873bd24c1c9" />
+<img width="296" height="147" alt="12" src="https://github.com/user-attachments/assets/ba54999f-753c-4346-8e36-6c4bc4164d7a" />
+
+
+
 
 
 
@@ -64,6 +79,15 @@ https://www.youtube.com/watch?v=hhbzUEQWdTg&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 > **🧚Q. 다음 두 데이터프레임 df1, df2를 합쳐서 데이터프레임 df3를 만들려고 합니다.**  
 > 적절한 판다스 명령을 선택해주세요.
+> 3️⃣
+
+df1의 `col1`과 df2의 `col3`을 기준으로 합쳐야 합니다.
+
+그리고 결과를 보면 `z`와 `w`처럼 한쪽에만 있는 데이터도 모두 들어가 있습니다.
+
+따라서 두 데이터프레임의 데이터를 모두 가져오는 `outer`를 사용해야 합니다.
+
+그래서 정답은 **3번**입니다.
 
 <table>
 <tr>
