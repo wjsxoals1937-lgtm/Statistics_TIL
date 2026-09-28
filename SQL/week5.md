@@ -162,6 +162,19 @@ WHERE TIME >= '2021-01-01'
 문제 링크: [조건에 부합하는 중고거래 상태 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/164672)
 
 풀이 과정:
+SELECT
+    BOARD_ID,
+    WRITER_ID,
+    TITLE,
+    PRICE,
+    CASE
+        WHEN STATUS = 'SALE' THEN '판매중'
+        WHEN STATUS = 'RESERVED' THEN '예약중'
+        WHEN STATUS = 'DONE' THEN '거래완료'
+    END AS STATUS
+FROM USED_GOODS_BOARD
+WHERE CREATED_DATE = '2022-10-05'
+ORDER BY BOARD_ID DESC;
 
 ```
 -날짜 조건: 2022-10-05에 등록된 게시물
@@ -186,12 +199,6 @@ HAVING AVG(DATEDIFF(END_DATE, START_DATE) + 1) >= 7
 ORDER BY AVERAGE_DURATION DESC, CAR_ID DESC;
 
 ```
-
-```
-
-<!-- 정답을 맞추게 되면, 정답입니다. 이 부분을 캡처해서 이 주석을 지우시고 첨부해주시면 됩니다. -->
-
----
 GROUP BY 기준: CAR_ID
 
 평균을 계산한 방식: 대여 일수를 구한 후 AVG()로 평균 계산
@@ -199,6 +206,12 @@ GROUP BY 기준: CAR_ID
 HAVING에 사용한 조건: 평균 대여 기간이 7일 이상
 
 처음 헷갈렸던 점: DATEDIFF()는 시작일을 포함하지 않아 +1을 해야 함.
+```
+
+<!-- 정답을 맞추게 되면, 정답입니다. 이 부분을 캡처해서 이 주석을 지우시고 첨부해주시면 됩니다. -->
+
+---
+
 
 
 
