@@ -74,6 +74,11 @@ plt.bar(x, y, width=0.7)
 # 2️⃣ 수행 인증
 
 <!-- 교재에서 안내된 과정을 직접 실행해본 뒤, 진행 결과가 보이도록 4~6장의 스크린샷을 캡처하여 아래에 첨부해주세요.-->
+<img width="980" height="722" alt="image" src="https://github.com/user-attachments/assets/281580ad-b1cf-4a57-940b-61664c4091c4" />
+<img width="791" height="773" alt="image" src="https://github.com/user-attachments/assets/d720ec63-251c-4ef1-bd71-78fbfaaf4695" />
+<img width="735" height="460" alt="image" src="https://github.com/user-attachments/assets/360e3c40-0bef-4d25-bb25-81576823c1b1" />
+<img width="672" height="617" alt="image" src="https://github.com/user-attachments/assets/474b1713-c8cf-4bfa-8708-8051bed6ce72" />
+<img width="782" height="777" alt="image" src="https://github.com/user-attachments/assets/9ea4a140-0b51-493a-9d3b-fac006c06f2a" />
 
 
 
