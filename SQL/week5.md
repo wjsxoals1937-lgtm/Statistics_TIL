@@ -104,6 +104,8 @@ SELECT DATETIME '2026-09-28 10:30:00' AS datetime;
 - 강의 수강 화면 캡처
 - 문제 풀이 정답 화면 캡처
 - SQL 실행 결과 화면 캡처
+- <img width="1917" height="1002" alt="image" src="https://github.com/user-attachments/assets/b6431be3-39ef-4e7d-8d25-d2291d2bb106" />
+
 
 ---
 
@@ -138,7 +140,8 @@ ORDER BY HISTORY_ID DESC;
 -CASE WHEN으로 만든 컬럼: CASE WHEN을 사용하여 대여 기간이 30일 이상이면 '장기 대여', 그렇지 않으면 '단기 대여'로 표시하는 RENT_TYPE 컬럼을 만들었다.
 ```
 
-<!-- 정답을 맞추게 되면, 정답입니다. 이 부분을 캡처해서 이 주석을 지우시고 첨부해주시면 됩니다. -->
+<img width="2560" height="1600" alt="KakaoTalk_20260928_113612353_01" src="https://github.com/user-attachments/assets/831f90cb-4fd6-4876-b0a4-a02bcf6a9a80" />
+
 
 ## 🧩 문제 2
 
@@ -155,7 +158,8 @@ WHERE TIME >= '2021-01-01'
 -집계한 대상: 2021년에 잡은 물고기의 수를 COUNT(*)로 집계하였다.
 ```
 
-<!-- 정답을 맞추게 되면, 정답입니다. 이 부분을 캡처해서 이 주석을 지우시고 첨부해주시면 됩니다. -->
+<img width="2560" height="1600" alt="KakaoTalk_20260928_113612353_03" src="https://github.com/user-attachments/assets/82817bb3-1bdc-4a36-9c33-c30115181252" />
+
 
 ## 🧩 문제 3
 
@@ -183,7 +187,8 @@ ORDER BY BOARD_ID DESC;
 -정렬 기준: BOARD_ID 기준 내림차순(DESC)
 ```
 
-<!-- 정답을 맞추게 되면, 정답입니다. 이 부분을 캡처해서 이 주석을 지우시고 첨부해주시면 됩니다. -->
+<img width="2560" height="1600" alt="KakaoTalk_20260928_113612353_02" src="https://github.com/user-attachments/assets/e19d5a36-fad1-4497-b12f-886311767523" />
+
 
 ## 🧩 문제 4
 
@@ -208,7 +213,8 @@ HAVING에 사용한 조건: 평균 대여 기간이 7일 이상
 처음 헷갈렸던 점: DATEDIFF()는 시작일을 포함하지 않아 +1을 해야 함.
 ```
 
-<!-- 정답을 맞추게 되면, 정답입니다. 이 부분을 캡처해서 이 주석을 지우시고 첨부해주시면 됩니다. -->
+<img width="2560" height="1600" alt="KakaoTalk_20260928_113612353" src="https://github.com/user-attachments/assets/9575744a-8e62-4e3f-93cd-680038107d2f" />
+
 
 ---
 
