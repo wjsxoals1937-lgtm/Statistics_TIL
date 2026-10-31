@@ -133,9 +133,9 @@ ON Customers.customer_id = Orders.customer_id;
 풀이 과정:
 
 ```
-- 사용한 테이블:
-- JOIN key:
-- 날짜를 출력한 형식:
+- 사용한 테이블: `BOOK`, `AUTHOR`
+- JOIN key: `BOOK.AUTHOR_ID = AUTHOR.AUTHOR_ID`
+- 날짜를 출력한 형식: `YYYY-MM-DD` (예: `2021-02-05`)
 ```
 
 <img width="907" height="436" alt="image" src="https://github.com/user-attachments/assets/c1e56b98-fe0c-42bb-9ee2-d426a9d5a8c1" />
@@ -148,12 +148,13 @@ ON Customers.customer_id = Orders.customer_id;
 풀이 과정:
 
 ```
-- 연결한 테이블:
-- JOIN key:
-- 집계한 값:
+- 연결한 테이블: `PRODUCT`, `OFFLINE_SALE`
+- JOIN key: `PRODUCT.PRODUCT_ID = OFFLINE_SALE.PRODUCT_ID`
+- 집계한 값: 상품코드별 총매출액 (`판매가 × 판매량`의 합계, `SUM(PRICE * SALES_AMOUNT)`)
 ```
 
-<!-- 정답을 맞추게 되면, 정답입니다. 이 부분을 캡처해서 이 주석을 지우시고 첨부해주시면 됩니다. -->
+<img width="1032" height="472" alt="image" src="https://github.com/user-attachments/assets/50bbf5b7-c721-4ae2-8790-4f46a3b4da0d" />
+
 
 ## 🧩 문제 3
 
@@ -162,12 +163,13 @@ ON Customers.customer_id = Orders.customer_id;
 풀이 과정:
 
 ```
-- 기준이 되는 왼쪽 테이블:
-- LEFT JOIN이 필요한 이유:
-- NULL이 발생하는 경우:
+기준이 되는 왼쪽 테이블: ANIMAL_OUTS (입양 기록 테이블)
+LEFT JOIN이 필요한 이유: 입양 기록은 있지만 보호소 입소 기록이 없는 동물도 조회해야 하기 때문.
+NULL이 발생하는 경우: ANIMAL_OUTS에는 동물의 입양 기록이 있지만, ANIMAL_INS에는 해당 동물의 입소 기록이 없어 두 테이블이 연결되지 않는 경우.
 ```
 
-<!-- 정답을 맞추게 되면, 정답입니다. 이 부분을 캡처해서 이 주석을 지우시고 첨부해주시면 됩니다. -->
+<img width="796" height="352" alt="image" src="https://github.com/user-attachments/assets/ea1a1fb7-02b1-4395-83f1-81d48a546ace" />
+
 
 ## 🧩 문제 4
 
@@ -176,13 +178,13 @@ ON Customers.customer_id = Orders.customer_id;
 풀이 과정:
 
 ```
-- 사용한 테이블:
-- JOIN key:
-- 비교한 날짜 컬럼:
-- 정렬 기준:
+사용한 테이블: ANIMAL_INS, ANIMAL_OUTS
+JOIN key: ANIMAL_INS.ANIMAL_ID = ANIMAL_OUTS.ANIMAL_ID
+비교한 날짜 컬럼: ANIMAL_OUTS.DATETIME(입양일) < ANIMAL_INS.DATETIME(보호 시작일)
+정렬 기준: 보호 시작일(ANIMAL_INS.DATETIME) 기준 오름차순(ASC)
 ```
 
-<!-- 정답을 맞추게 되면, 정답입니다. 이 부분을 캡처해서 이 주석을 지우시고 첨부해주시면 됩니다. -->
+<img width="843" height="311" alt="image" src="https://github.com/user-attachments/assets/87ab7a71-58ef-4b24-9a4b-a264b97ca511" />
 
 ---
 
@@ -198,9 +200,9 @@ JOIN 개념이 헷갈린다면 아래 자료를 함께 참고해도 좋습니다
 # 5️⃣ 이번 주 회고
 
 ```
-1. INNER JOIN과 LEFT JOIN의 차이를 어떻게 이해했는지:
-2. JOIN 문제를 풀 때 가장 먼저 확인해야 할 것:
-3. JOIN 결과가 예상과 달랐던 경험이 있다면:
+1. INNER JOIN과 LEFT JOIN의 차이를 어떻게 이해했는지: INNER JOIN은 두 테이블에 공통으로 존재하는 데이터만 연결하는 방식이고, LEFT JOIN은 왼쪽 테이블의 모든 데이터를 유지하면서 오른쪽 테이블의 일치하는 데이터를 연결하는 방식이라고 이해했다.
+2. JOIN 문제를 풀 때 가장 먼저 확인해야 할 것: 어떤 테이블에 필요한 정보가 있는지 확인하고, 두 테이블을 연결할 수 있는 공통 컬럼(JOIN key)이 무엇인지 먼저 확인해야 한다. 또한 어떤 테이블을 기준으로 조회해야 하는지도 판단해야 한다.
+3. JOIN 결과가 예상과 달랐던 경험이 있다면: 처음에는 JOIN을 사용하면 두 테이블의 데이터가 모두 합쳐진다고 생각했다. 하지만 LEFT JOIN과 INNER JOIN의 차이를 학습하면서 연결 조건에 따라 조회되는 데이터가 달라진다는 것을 알게 되었다. 특히 LEFT JOIN에서 오른쪽 테이블에 일치하는 데이터가 없으면 NULL이 발생한다는 점이 인상적이었다.
 ```
 
 수고하셨습니다!
