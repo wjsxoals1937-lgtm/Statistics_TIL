@@ -118,5 +118,4 @@ https://www.youtube.com/watch?v=W_cxRstQUk8&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 
 ### 🎉 수고하셨습니다.
-<img width="522" height="746" alt="1" src="https://github.com/user-attachments/assets/18387d49-a88e-43ca-af0a-5bc830b5fe7c" />
 
